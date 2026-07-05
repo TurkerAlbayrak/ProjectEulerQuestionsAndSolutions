@@ -11,7 +11,6 @@ int main(void)
         if(i%3==0 || i%5==0)
         {
             counter = counter + i;
-            counter++;
         }
     }
     printf("%d\n", counter);
